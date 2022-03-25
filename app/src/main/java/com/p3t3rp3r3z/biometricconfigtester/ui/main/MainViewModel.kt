@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.ViewModel
 
+//for testing biometrics
 class MainViewModel : ViewModel() {
     fun createWeakPrompt (context: Context, activity: Fragment) {
         val executor = ContextCompat.getMainExecutor(context)
